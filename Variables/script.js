@@ -17,13 +17,12 @@ function myFunc() {
     var age = 30;
 
     if (true) {
-        var sAge = 12;
+        const sAge = 12;
         // console.log("OuterAge", age);
         // console.log("InnerAge", sAge);
     }
-        // console.log("OuterAge", age);
+        console.log("OuterAge", age);
         console.log("InnerAge", sAge);
-
 }
 
 myFunc()
